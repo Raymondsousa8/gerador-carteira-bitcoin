@@ -1,0 +1,14 @@
+{
+  "name": "meu-gerador-btc",
+  "version": "1.0.0",
+  "description": "Gerador de carteiras Bitcoin",
+  "main": "createWallet.js",
+  "scripts": {
+    "start": "node createWallet.js"
+  },
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.2.0"
+  }
+}
